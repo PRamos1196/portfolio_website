@@ -1,3 +1,4 @@
+import angular from '../assets/angular.png';
 import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
@@ -10,6 +11,7 @@ import graphql from '../assets/graphql.png';
 import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
 import mu5 from '../assets/mu5.png';
+import netcore from '../assets/netcore.png';
 import node from '../assets/node.png';
 import python from '../assets/python.png';
 import react from '../assets/react.png';
@@ -36,6 +38,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+  angular,
   email,
   mobile,
   api,
@@ -67,6 +70,7 @@ export default {
   asus,
   bolt,
   nb,
+  netcore,
   skype,
   spotify,
 };

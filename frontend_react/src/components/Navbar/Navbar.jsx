@@ -28,7 +28,7 @@ const Navbar = () => {
                     whileInView={{ x: [300, 0]}}
                     transition={{ duration: 0.85, ease: 'easeOut' }}
                 >
-                    <HiX onCLick={()=> setToggle(false)} />
+                    <HiX onClick={()=> setToggle(false)} />
                     <ul className="app__navbar-links">
                         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
                             <li key={item}>

@@ -64,6 +64,7 @@ const Footer = () => {
               value={message}
               name="message"
               onChange={handleChangeInput}
+              maxlength="256"
             />
           </div>
           <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>

@@ -25,9 +25,10 @@
         height: 170px;
         border-radius: 15px;
         object-fit: cover;
+        box-shadow: 0px 0px 15px var(--secondary-color);
 
         &:hover{
-            box-shadow: 0px 0px 20px var(--secondary-color);
+            box-shadow: 0px 0px 25px var(--secondary-color);
         }
     }
     

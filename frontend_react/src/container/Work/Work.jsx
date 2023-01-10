@@ -86,6 +86,7 @@ const Work = () => {
                     whileHover={{ scale: [1, 0.90] }}
                     transition={{ duration: 0.25 }}
                     className="app__flex"
+                    color=''
                   >
                     <AiFillGithub />
                   </motion.div>

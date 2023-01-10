@@ -6,10 +6,10 @@
     align-items: center;
 
     padding: 1rem 2rem;
-    background: rgba(255,255,255,0.25);
+    background: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    border: 1px solid rgba(255,255,255,0.18);
+    //border: 1px solid rgba(255,255,255,0.18);
     position: fixed;
     z-index: 2;
 }
@@ -62,13 +62,13 @@
             transition: all 0.3s ease-in-out;
 
             &:hover{
-                color: var(--secondary-color);
+                color: var(--white-color);
             }
         }
 
         &:hover {
             div {
-                background: var(--secondary-color);
+                background: var(--white-color);
             }
         }
 
@@ -90,12 +90,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--secondary-color);
+    background: var(--white-color);
 
     svg {
         width: 70%;
         height: 70%;
-        color: var(--white-color);
+        color: var(--gray-color);
     }
 
     div {
@@ -114,8 +114,7 @@
          align-items: flex-end;
          flex-direction: column;
 
-         background: url('../../assets/bgWhite.png');
-         background-color: var(--white-color);
+         background-color: var(--black-color);
          background-size: cover;
          background-repeat: repeat;
 
@@ -124,7 +123,7 @@
          svg{
             width: 35px;
             height: 35px;
-            color: var(--secondary-color);
+            color: var(--white-color);
             margin: 0.5rem 1rem;
          }
 
@@ -143,7 +142,7 @@
                 margin: 1rem;
 
                 a{
-                    color: var(--grey-color);
+                    color: var(--white-color);
                     text-decoration: none;
                     font-size: 1rem;
                     text-transform: upercase;
